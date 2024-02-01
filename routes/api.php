@@ -26,6 +26,12 @@ Route::post('pacientes/buscarPorCedula', [PacienteController::class, 'buscarPorC
 
 
 
+
+
+
+
+
+
 Route::get('/chequeomedico',  [ChequeoMedicoController::class, 'listar']);
 Route::get('/chequeomedico/{id}', [ChequeoMedicoController::class, 'cargarDatos']);
 
